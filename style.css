@@ -1,0 +1,85 @@
+
+body{
+    overflow-x: hidden;
+}
+.about-us img{
+    width: 80%;
+    margin-top: 40px;
+    height: 580px;
+    transition: 0.3s;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+}
+.about-us img:hover{
+    transform: rotate(40deg);
+    transform: scale(1.05);
+    opacity: .9;
+}
+
+.about-us{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.about-p{
+    transition: 0.3s;
+}
+.about-p:hover{
+    transform: scale(1.05);
+    opacity: .9;
+    transform: rotate(10deg);
+}
+.about-us h2{
+    text-align: center;
+}
+.about-us p{
+    text-align: justify;
+    padding: 30px 50px;
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-banner{
+    background-image: url(images/Frame\ 58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.members{
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+.members div{
+    margin: 0 auto;
+    margin: 20px auto;
+}
+.members .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.2s;
+}
+.members .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
+}
+footer{
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Splash', cursive;
+    padding: 20px;
+}
+footer h3{
+    font-size: 50px;
+}
+#acheivement{
+    background-image: url(images/Frame\ 58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+}
